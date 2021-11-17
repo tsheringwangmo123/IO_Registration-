@@ -107,7 +107,10 @@
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
     <a href="index3.html" class="brand-link">
-      <!-- <img src="#" alt="" class="brand-image img-circle elevation-3" style="opacity: .8"> -->
+      <img src="/Dashboard/images/1.png" height="90"width="120" alt="some_text" style=""> 
+
+
+ 
       {{-- <span class="brand-text font-weight-light">logo</span> --}}
     </a>
 

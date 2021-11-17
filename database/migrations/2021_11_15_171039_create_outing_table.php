@@ -16,13 +16,13 @@ class CreateOutingTable extends Migration
         Schema::create('outings', function (Blueprint $table) {
             $table->id();
             $table->string('name');
-            $table->Date('date');
+            $table->Date('date')->require();
             $table->string('year');
             $table->string('course');
             $table->string('section');
-            $table->string('contact');
-            $table->string('reason');
-            $table->string('outing_duration');
+            $table->string('contact')->require();
+            $table->string('reason')->require();
+            $table->string('outing_duration')->require();
             $table->string('status');
             $table->timestamps();
         });

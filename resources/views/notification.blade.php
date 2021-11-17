@@ -1,6 +1,7 @@
 @extends('layouts.dashboard')
 
 @section('content')
+
 <div class="content-wrapper" style="padding:25px">
   <table class="table ">
       <thead class="table-dark">
